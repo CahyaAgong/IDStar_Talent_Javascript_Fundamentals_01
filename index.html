@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan Level 1</title>
+</head>
+<body>
+  <h1>ToDo List</h1>
+  <div>
+    <input type="text" name="input-todo" id="input-todo" placeholder="masukkan tugas" />
+    <button type="button" id="add-task" onclick="addTask()">Tambah</button>
+  </div>
+  <ul id="todoList"></ul>
+
+  <p>Total Tugas Belum Selesai : <span id="data-length">0</span></p>
+
+  <div>
+    <button type="button" onclick="finishAllTask()">Tandai Semua Selesai</button>
+    <button type="button" onclick="deleteAllTask()">Hapus Semua</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
